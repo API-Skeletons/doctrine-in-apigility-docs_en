@@ -1,11 +1,13 @@
 Entity Relationship Diagram
 ===========================
 
+.. image:: https://raw.githubusercontent.com/API-Skeletons/zf-oauth2-doctrine/master/media/oauth2-doctrine-erd.png
 
-[![Entity Relationship Diagram](https://raw.githubusercontent.com/API-Skeletons/zf-oauth2-doctrine/master/media/oauth2-doctrine-erd.png)](https://raw.githubusercontent.com/API-Skeletons/zf-oauth2-doctrine/master/media/oauth2-doctrine-erd.png)
-Entity Relationship Diagram created with [Skipper](https://skipper18.com)
+Entity Relationship Diagram created with `Skipper <https://skipper18.com>`_
 
-The ERD module is located at [media/OAuth2-orm.module.xml](https://github.com/API-Skeletons/zf-oauth2-doctrine/blob/master/media/OAuth2-orm.module.xml) and is intended to be embedded in the ERD for your project.
+The ERD module is located at
+`media/OAuth2-orm.module.xml <https://github.com/API-Skeletons/zf-oauth2-doctrine/blob/master/media/OAuth2-orm.module.xml>`_
+and is intended to be embedded in the ERD for your project.
 
 
 Relations
@@ -25,4 +27,6 @@ There is a one to one relationship from Client to PublicKey.  This is because th
 Database Table Namespaces
 -------------------------
 
-All OAuth2 tables are suffixed with _OAuth2 such as Client_OAuth2.  You can change these if you [Override Default Entities](Override Default Entities).  It is recommended your database table names match your entity names to provide canonical naming across your application.  See also [bushbaby/zf-oauth2-doctrine-mutatetablenames](https://github.com/basz/zf-oauth2-doctrine-mutatetablenames).
+All OAuth2 tables are suffixed with _OAuth2 such as Client_OAuth2.  You can change these if you :ref:`override`.
+It is recommended your database table names match your entity names to provide canonical naming across your application.
+See also `bushbaby/zf-oauth2-doctrine-mutatetablenames <https://github.com/basz/zf-oauth2-doctrine-mutatetablenames>`_.
