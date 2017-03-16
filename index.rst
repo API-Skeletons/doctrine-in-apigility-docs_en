@@ -5,6 +5,6 @@ This will document how to create an API with Doctrine and Apigility.
 
 .. toctree::
     :maxdepth: 2
-    :caption: zf-oauth2-doctrine
+    :caption: Table of Contents
 
-    zf-oauth2-doctrine/index
+    zf-oauth2-doctrine
