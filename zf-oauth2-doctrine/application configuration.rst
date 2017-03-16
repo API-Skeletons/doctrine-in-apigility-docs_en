@@ -3,7 +3,7 @@ Application Configuration
 
 
 Installation
-============
+------------
 
 Installation of this module uses composer. For composer documentation, please refer to [getcomposer.org](http://getcomposer.org/).
 
@@ -21,7 +21,7 @@ Add this module to your application's configuration:
 ```
 
 Global Configuration
-====================
+--------------------
 
 Copy ```config/oauth2.doctrine-orm.global.php.dist``` to your autoload directory and
 rename to ```oauth2.doctrine-orm.global.php``` This config has multiple sections for multiple
