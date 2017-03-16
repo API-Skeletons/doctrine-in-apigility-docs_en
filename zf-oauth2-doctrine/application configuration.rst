@@ -1,5 +1,5 @@
 Application Configuration
-=========================
+==========================
 
 
 Installation
@@ -7,13 +7,13 @@ Installation
 
 Installation of this module uses composer. For composer documentation, please refer to [getcomposer.org](http://getcomposer.org/).
 
-``sh
+``
 $ php composer.phar require api-skeletons/zf-oauth2-doctrine "^1.0"
 ``
 
 Add this module to your application's configuration:
 
-``php
+``
 'modules' => [
    ...
    'ZF\OAuth2\Doctrine',
@@ -35,7 +35,7 @@ zfcampus/zf-mvc-auth Configuration
 By default this module includes a `oauth2.doctrineadapter.default` adapter.
 The adapter is used to create storage from services.  Add this configuration to your `config/autoload/zf-mvc-auth-oauth2-override.global.php`
 
-``php
+``
     'zf-mvc-auth' => array(
         'authentication' => array(
             'adapters' => array(
@@ -57,7 +57,7 @@ zfcampus/zf-oauth2 Configuration
 
 Add the default storage adapter to the zf-oauth default storage.  `zfcampus/zf-oauth2` provides an `oauth2.local.php` file.  This repository's recommendation is to create a new `config/autoload/oauth2.global.php` file and set the following configuration as well as any [OAuth2 server settings](https://github.com/bshaffer/oauth2-server-php/blob/develop/src/OAuth2/Server.php#L109) e.g. `allow_implicit`.
 
-``php
+``
 'zf-oauth2' => array(
     'storage' => 'oauth2.doctrineadapter.default',
 ``
