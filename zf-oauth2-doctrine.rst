@@ -6,3 +6,7 @@ and entity definitions for all aspects of OAuth2 including Authorization Code, A
 
 A [Skipper](https://skipper18.com) module is provided to embed in your Entity Relationship Diagram.
 
+.. toctree::
+    :caption: zf-oauth2-doctrine
+
+    zf-oauth2-doctrine/index
