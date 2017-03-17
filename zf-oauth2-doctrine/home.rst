@@ -10,33 +10,33 @@ A [Skipper](https://skipper18.com) module is provided to embed in your Entity Re
 .. toctree::
     :caption: zf-oauth2-doctrine
 
-.. toctree::
-    :caption: About
-    home
-    erd
+    .. toctree::
+        :caption: About
+        home
+        erd
 
-.. toctree::
-    :caption: Congiguration
+    .. toctree::
+        :caption: Configuration
 
-    application configuration
-    module configuration
-    user entity configuration
+        application configuration
+        module configuration
+        user entity configuration
 
-.. toctree::
-    :caption: Integration
+    .. toctree::
+        :caption: Integration
 
-    events
-    integration
+        events
+        integration
 
-.. toctree::
-    :caption: Advanced
+    .. toctree::
+        :caption: Advanced
 
-    override
-    multiple
+        override
+        multiple
 
-.. toctree::
-    :caption: Add Ons
+    .. toctree::
+        :caption: Add Ons
 
-    add-ons
+        add-ons
 
 
