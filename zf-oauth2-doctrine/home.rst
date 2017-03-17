@@ -31,9 +31,9 @@ A `Skipper <https://skipper18.com>`_ module is provided to embed in your Entity 
     override
     multiple
 
-.. toctree::
-    :caption: Add Ons
+    .. toctree::
+        :caption: Add Ons
 
-    add-ons
+        add-ons
 
 
