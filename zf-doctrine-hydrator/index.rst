@@ -1,6 +1,8 @@
 Hydrator Strategies
 ===================
 
+`api-skeletons/zf-doctrine-hydrator <https://github.com/api-skeletons/zf-doctrine-hydrator>`_
+
 A collection of hydrator strategies for `phpro/zf-doctrine-hydration-module <https://github.com/phpro/zf-doctrine-hydration-module>`_
 written for use with `zfcampus/zf-apigility-doctrine <https://github.com/zfcampus/zf-apigility-doctrine)>`_
 
