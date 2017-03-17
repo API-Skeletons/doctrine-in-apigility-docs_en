@@ -2,6 +2,9 @@ OAuth2 Adapter Console Management
 =================================
 
 
+`api-skeletons/zf-oauth2-doctrine-console <https://github.com/API-Skeletons/zf-oauth2-doctrine-console>`_
+
+
 About
 -----
 
