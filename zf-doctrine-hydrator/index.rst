@@ -7,6 +7,21 @@ A collection of hydrator strategies for `phpro/zf-doctrine-hydration-module <htt
 written for use with `zfcampus/zf-apigility-doctrine <https://github.com/zfcampus/zf-apigility-doctrine)>`_
 
 
+Installation
+------------
+
+Installation of this module uses composer. For composer documentation, please refer to `getcomposer.org <http://getcomposer.org/>`_::
+
+    composer require api-skeletons/zf-doctrine-hydrator "*"
+
+Add this module to your application's configuration::
+
+    'modules' => array(
+       ...
+       'ZF\Doctrine\Hydrator',
+    ),
+
+
 Strategy\CollectionExtract
 --------------------------
 
