@@ -1,28 +1,31 @@
 Hydrator Strategies
 ===================
 
-[![Build Status](https://travis-ci.org/API-Skeletons/zf-doctrine-hydrator.svg)](https://travis-ci.org/API-Skeletons/zf-doctrine-hydrator)
-[![Total Downloads](https://poser.pugx.org/api-skeletons/zf-doctrine-hydrator/downloads)](https://packagist.org/packages/api-skeletons/zf-doctrine-hydrator)
-
-A collection of hydrator strategies for [`phpro/zf-doctrine-hydration-module`](https://github.com/phpro/zf-doctrine-hydration-module) written for use with [`zfcampus/zf-apigility-doctrine`](https://github.com/zfcampus/zf-apigility-doctrine).
+A collection of hydrator strategies for `phpro/zf-doctrine-hydration-module <https://github.com/phpro/zf-doctrine-hydration-module>`_
+written for use with `zfcampus/zf-apigility-doctrine <https://github.com/zfcampus/zf-apigility-doctrine)>`_
 
 
 Strategy\CollectionExtract
 --------------------------
 
-Extract a collection.  Often when this is used the entities in the collection have a many to one relationship with the entity the collection belongs to.  In this case it is recommended you use the EntityLink for the parent on the child.
+Extract a collection.  Often when this is used the entities in the collection have a many to one
+relationship with the entity the collection belongs to.  In this case it is recommended you use the
+EntityLink for the parent on the child.
 
 
 Strategy\CollectionLink
 -----------------------
 
-This strategy will replace a collection with just a self link to the collection.  It uses [`zfcampus/zf-doctrine-querybuilder`](https://github.com/API-Skeletons/zf-doctrine-querybuilder) to create a query for just the collection data.
+This strategy will replace a collection with just a self link to the collection.  It uses
+`zfcampus/zf-doctrine-querybuilder <https://github.com/API-Skeletons/zf-doctrine-querybuilder>`_
+to create a query for just the collection data.
 
 
 Strategy\EntityLink
 -------------------
 
-Will replace an entity with just a self link to the entity.  Use when a child is part of a collection referenced by the parent and the parent is a property of the child.
+Will replace an entity with just a self link to the entity.  Use when a child is part of a
+collection referenced by the parent and the parent is a property of the child.
 
 
 How to use these hydration strategies
