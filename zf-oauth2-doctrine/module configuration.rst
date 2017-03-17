@@ -6,7 +6,7 @@ Using Default Entities
 ----------------------
 
 Details for creating your database with the included entities are outside the scope of this project.
-Generally this is done through [doctrine/doctrine-orm-module](https://github.com/doctrine/DoctrineORMModule)
+Generally this is done through `doctrine/doctrine-orm-module <https://github.com/doctrine/DoctrineORMModule>`_
 with ``php public/index.php orm:schema-tool:create``
 
 By default this module uses the entities provided but you may use the adapter with your own entites
@@ -47,7 +47,7 @@ By default this Doctrine adapter retrieves the user by the `username` field on t
 User entity. If you need to use a different or multiple fields you may do so via the
 ``auth_identity_fields`` key. For example, ZfcUser allows users to authenticate by username and/or email fields.
 
-An example to match ZfcUser `auth_identity_fields` configuration::
+An example to match ZfcUser ``auth_identity_fields`` configuration::
 
     'zf-oauth2-doctrine' => [
         'default' => [
