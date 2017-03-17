@@ -1,5 +1,5 @@
-Doctrine OAuth2 Adapter
-=======================
+OAuth2 Adapter
+==============
 
 `api-skeletons/zf-oauth2-doctrine <https://github.com/api-skeletons/zf-oauth2-doctrine>`_
 
