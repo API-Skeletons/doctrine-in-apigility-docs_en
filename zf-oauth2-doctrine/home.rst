@@ -1,5 +1,8 @@
-zf-oauth2-doctrine
-==================
+Doctrine OAuth2 Adapter
+=======================
+
+`api-skeletons/zf-oauth2-doctrine <https://github.com/api-skeletons/zf-oauth2-doctrine>`_
+
 
 This module provides a Doctrine adapter for `zfcampus/zf-mvc-auth <https://github.com/zfcampus/zf-mvc-auth>`_
 and `zfcampus/zf-oauth2 <https://github.com/zfcampus/zf-oauth2>`_
