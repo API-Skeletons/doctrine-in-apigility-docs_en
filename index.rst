@@ -7,6 +7,7 @@ This will document how to create an API with Doctrine and Apigility.
     :caption: Table of Contents
 
     introduction
+    about
     authentication/index
     authorization/index
     zf-oauth2-doctrine/index
