@@ -7,8 +7,8 @@ Create a new module called `SecondOAuth2` and copy the entities from `zf-oauth2-
 
 Copy the ORM XML data from `zf-oauth2-doctine` to `SecondOAuth2/config/orm` and edit it for the new module.  Be sure to change the table names.  Add doctrine config to module.config.php
 
-Copy this code into the `SecondOAuth2` `Module.php`
-```php
+Copy this code into the `SecondOAuth2` `Module.php`::
+
     public function onBootstrap(MvcEvent $e)
     {
         /** @var ServiceLocatorInterface $serviceManager */
@@ -33,7 +33,7 @@ Copy this code into the `SecondOAuth2` `Module.php`
             ],
         ];
     }
-```
+
 Create a copy of the default config in oauth2.doctrine-orm.global.php and name the block 'second'.  Create a new User entity and assign that entity to the default group.  There should not be a reason to have two OAuth2 servers connected to the same User entity. Change namespaces as needed.
 
 Finally follow the configuration section of this documentation to configure the second OAuth2 server.
