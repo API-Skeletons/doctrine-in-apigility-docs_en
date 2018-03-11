@@ -10,3 +10,6 @@ A [Skipper](https://skipper18.com) module is provided to embed in your Entity Re
     :caption: zf-oauth2-doctrine
 
     zf-oauth2-doctrine/index
+
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

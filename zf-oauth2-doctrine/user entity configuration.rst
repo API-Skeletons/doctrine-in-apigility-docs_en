@@ -13,3 +13,5 @@ The User entity must implement ``ZF\OAuth2\Doctrine\Entity\UserInterface``
 The User entity for the unit test for this module is a good template to start from:
 `https://github.com/api-skeletons/zf-oauth2-doctrine/blob/master/test/asset/module/Doctrine/src/Entity/User.php <https://github.com/api-skeletons/zf-oauth2-doctrine/blob/master/test/asset/module/Doctrine/src/Entity/User.php>`_
 
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

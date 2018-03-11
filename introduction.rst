@@ -25,3 +25,6 @@ _embedded data.
 
 If you're familiar with the benefits of ORM and will use it in your project and you require a fully-fledged
 API engine than this API strategy may what you're looking for.
+
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

@@ -7,3 +7,6 @@ This library provides query builder directives from array parameters. This libra
 to apply filters from an HTTP request to give an API fluent filter and order-by dialects.
 
 This library implements rich filter and sorting access to developers implementing your API.
+
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

@@ -14,3 +14,7 @@ This will document how to create an API with Doctrine and Apigility.
     zf-oauth2-doctrine-console/index
     zf-doctrine-hydrator/index
     zf-doctrine-querybuilder/index
+
+
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

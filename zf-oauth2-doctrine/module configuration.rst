@@ -52,3 +52,6 @@ An example to match ZfcUser ``auth_identity_fields`` configuration::
     'zf-oauth2-doctrine' => [
         'default' => [
             'auth_identity_fields' => ['username', 'email'],
+
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

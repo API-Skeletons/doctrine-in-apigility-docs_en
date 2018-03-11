@@ -50,3 +50,6 @@ Example Event Attachment
             }
         }
     }
+
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

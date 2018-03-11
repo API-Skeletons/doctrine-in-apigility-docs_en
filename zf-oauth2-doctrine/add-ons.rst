@@ -22,3 +22,6 @@ ACL Permissions and Authenticated Identity management.  This uses interfaces rat
 ------------------------
 
  Allows configuration of the table names that this module uses without overriding default entities.
+
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

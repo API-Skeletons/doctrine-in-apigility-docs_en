@@ -30,3 +30,6 @@ Database Table Namespaces
 All OAuth2 tables are suffixed with _OAuth2 such as Client_OAuth2.  You can change these if you :ref:`override`.
 It is recommended your database table names match your entity names to provide canonical naming across your application.
 See also `bushbaby/zf-oauth2-doctrine-mutatetablenames <https://github.com/basz/zf-oauth2-doctrine-mutatetablenames>`_.
+
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

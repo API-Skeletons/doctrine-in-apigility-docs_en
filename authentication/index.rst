@@ -18,3 +18,6 @@ Token you can fetch the authenticated User entity and OAuth2 Client entity.
 Authentication should occur every time a user tries to access a route they are not authorized for
 and the user is not already Authenticated.  To trigger Authentication you must have authorization
 setup for your resources.
+
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

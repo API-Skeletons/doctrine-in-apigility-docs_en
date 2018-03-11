@@ -61,3 +61,6 @@ Console Routes
 For the connecting side of JWT, `zf-oauth2-client <https://github.com/API-Skeletons/zf-oauth2-client>`_
 provides a command line tool to generate a JWT reqeust.
 See also http://bshaffer.github.io/oauth2-server-php-docs/grant-types/jwt-bearer/
+
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

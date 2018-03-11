@@ -38,3 +38,6 @@ Create a copy of the default config in oauth2.doctrine-orm.global.php and name t
 
 Finally follow the configuration section of this documentation to configure the second OAuth2 server.
 
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.
+

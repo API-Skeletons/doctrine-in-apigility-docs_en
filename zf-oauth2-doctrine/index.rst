@@ -40,3 +40,5 @@ A `Skipper <https://skipper18.com>`_ module is provided to embed in your Entity 
     add-ons
 
 
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

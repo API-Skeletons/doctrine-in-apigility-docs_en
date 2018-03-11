@@ -58,3 +58,6 @@ file and set the following configuration as well as any
 
     'zf-oauth2' => array(
         'storage' => 'oauth2.doctrineadapter.default',
+
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

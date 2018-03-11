@@ -30,3 +30,6 @@ Now in OAuth2/config/module.config.php add the Doctrine config and alias the xml
             ),
         ),
     ),
+
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.

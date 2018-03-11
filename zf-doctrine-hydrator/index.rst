@@ -111,3 +111,6 @@ When an Artist is queried all Albums for the Artist will be returned.  For each 
             "self": "https://api/artist/1"
         }
     }
+
+.. note::
+  Maintained by `API Skeletons <https://apiskeletons.com>`_.
