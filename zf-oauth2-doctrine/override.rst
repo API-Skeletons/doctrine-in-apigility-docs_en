@@ -1,20 +1,16 @@
 Override Default Entities
 =========================
 
-This example shows how to override default entities and modify them to use BIGINT.
-The same procedure is used for any other time default entities will be overridden.
-
-The default foreign keys and primary keys in ``zf-oauth2-doctrine`` are standard
-integers.  Many times databases will plan for the future and use BIGINT for these
-keys.  It's not possible to create referential integrity between an INTEGER and a
-BIGINT.  It is possible to quickly implement BIGINT integers in ``zf-oauth2-doctrine``.
+This example shows how to override default entities.
+The same procedure is used any time default entities will be overridden.
 
 First you'll need a new module for the modified xml.  Call it ``OAuth2``.  Next copy
 the ``zf-oauth2-doctrine/config/orm/*.xml`` into your new
 module ``OAuth2/config/orm`` (create this directory).
 
-Edit the xml and change all `integers` to `bigint`.  Next edit your
+Edit the xml as needed.  Next edit your
 `oauth2.doctrine-orm.global.php` file and set `'enable_default_entities' => false`
+You may need to modify the config file to match the new xml.
 
 Now in OAuth2/config/module.config.php add the Doctrine config and alias the xml::
 
